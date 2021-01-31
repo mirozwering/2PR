@@ -1,0 +1,30 @@
+@charset "UTF-";
+/* CSS Document */
+
+/* overschrijven BS; switch to red background if media kleiner dan 573px */ 
+@media (max-width: 572px) {
+	body {
+		background-color: red; 
+	} 
+}
+
+/* def id (tbv uniek lijstje) */
+#lijst {color: rgb(255,255,255); background-color: rgb(0,0,0);}
+
+/* overschrijven BS; padding 0 voor klasse navbar */
+.navbar {padding: 0px;}
+
+/* overschrijven BS; witten, verhoofdletteren en vervetten van elke link in elke nav */
+nav a {color: rgb(0,0,0); text-transform: uppercase; font-weight: bolder;}
+
+/* toevoegen op BS; achtergrond-image klasse row */
+.container-xl.p-3.my-3 .row {background-image: url(images/MG_9202-crop.jpg);}
+
+/* def klasse (tbv image) */
+.rechts_uitlijnen {float: left; padding-top: 5px; padding-right: 5px; padding-bottom: 2px; padding-left: 0px;}
+
+/* overschrijven BS; witten en verbreden tot 100% van elke table */
+table {color: rgb(255,255,255); width: 100%;}
+
+/* def klasse (tbv de 1e col binnen table) */
+.eerste_kolom { padding-left: 25px;}
